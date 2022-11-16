@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZRCHmNlaFbK6NeiS2KudGwoX8+l9kh8LvEPa4idNEPd6PH0pao8XPXly6Asl9Lk3egfjPu18lLNGlNglUqBVfw==",
+  "success": true,
+  "projectFilePath": "/home/sabarinath/tasks/task-05/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/home/sabarinath/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
