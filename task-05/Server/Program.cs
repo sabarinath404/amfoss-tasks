@@ -26,8 +26,7 @@ public class SynchronousSocketListener
         IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 11000);
 
         // Check whether TCP Socket is created correctly
-        Socket listener = new Socket(ipAddress.AddressFamily,SocketType.Stream,
-    ProtocolType.Tcp);
+        Socket listener = new Socket(ipAddress.AddressFamily,SocketType.Stream,ProtocolType.Tcp);
 
         // Bind the socket to the local endpoint and
         // listen for incoming connections.  
@@ -50,12 +49,13 @@ public class SynchronousSocketListener
                 bytesRec = handler.Receive(bytes);
                 data = Encoding.ASCII.GetString(bytes, 0, bytesRec); 
                 Console.WriteLine("Hello, World!");
-                Console.WriteLine(data);
+                Console.WriteLine("data----"+data);
                 //Console.WriteLine("Text received : {0}", data);
-                string[] dataArr = data.Split("/");/*Add required input for splitting the string*/
-                var mail = dataArr[2];
-                Console.WriteLine("Hello, World!");
-                Console.WriteLine("Hello, World!");
+                string[] dataArr = data.Split(",");/*Add required input for splitting the string*/
+                Console.WriteLine(dataArr);
+                string mail = dataArr[2];
+
+               
 
 
 

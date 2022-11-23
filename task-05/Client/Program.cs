@@ -1,4 +1,3 @@
-using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -7,7 +6,7 @@ using System.Text;
 public class SynchronousSocketClient
 {
 
-    public static async Task StartClientAsync()
+    public static void StartClient()
     {
         // Data buffer for incoming data.  
         byte[] bytes = new byte[1024];
@@ -19,19 +18,19 @@ public class SynchronousSocketClient
             // check if the port is defined or not
             IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
             IPAddress ipAddress = ipHostInfo.AddressList[0];
-            IPEndPoint remoteEP = new IPEndPoint(ipAddress,0);
+            IPEndPoint remoteEP = new IPEndPoint(ipAddress,11000);
             //changed================================================================
             // SocketAddress socketAddress = remoteEP.Serialize();
             // IPEndPoint clonedIPEndPoint = (IPEndPoint) remoteEP.Create(socketAddress);
             //changed================================================================
 
             // Check whether TCP Socket is created correctly
-             Socket sender = new Socket(remoteEP.AddressFamily,SocketType.Stream, ProtocolType.Tcp);
+            Socket sender = new Socket(remoteEP.AddressFamily,SocketType.Stream, ProtocolType.Tcp);
 
             // Connect the socket to the remote endpoint. Catch any errors.
             try
             {
-                await sender.ConnectAsync(remoteEP);//changed================================================================
+                sender.Connect(remoteEP);//changed================================================================
  
 
                 Console.WriteLine("Socket connected to {0}", sender.RemoteEndPoint.ToString());
@@ -81,7 +80,7 @@ public class SynchronousSocketClient
     public static int Main(String[] args)
     {
        // Start();
-        StartClientAsync();
+        StartClient();
         return 0;
     }
 }
