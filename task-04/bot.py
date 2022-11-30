@@ -98,8 +98,8 @@ def helpProvider(message):
 
 @bot.message_handler(func=lambda message: botRunning, commands=['movie'])
 def getMovie(message):
-    bot.reply_to(message, 'wait movie info...')
-    print('hello')
+    # bot.reply_to(message, 'wait movie info...')
+    # print('hello')
     # print(message.text)
 
     print('hello tooo')
@@ -112,8 +112,8 @@ def getMovie(message):
     # movie_name=movie_name.lstrip[6: ]
     # print(movie_name)
     movie = movie_name.split(' ', 1)[1]
-    print('------------------------')
-    print(movie)
+    # print('------------------------')
+    # print(movie)
 
 
    
@@ -124,7 +124,7 @@ def getMovie(message):
     movie_info = get_movie_info(movie)
 
     
-    # message_text = ""
+    
     
     if movie_info:
         rating_string = f"IMDb Rating: {movie_info['imdb_rating']}\n"
@@ -139,9 +139,9 @@ def getMovie(message):
             f"Starring:\n{movie_info['actors']}\n\n" +
             f"Ratings:\n{rating_string}"
             ) 
-        print('movie kitty----')
-        print(movie_info)
-        print(message_text)
+        # print('movie found')
+        # print(movie_info)
+        # print(message_text)
        
 
         # @bot.message_handler(content_types=['document', 'audio'])
@@ -185,7 +185,7 @@ def getMovie(message):
 
         
     else:{
-         bot.reply_to(message, 'movie kittteyella macha.......')
+         bot.reply_to(message, 'Movie Not Found...!')
 
     }
         
@@ -197,9 +197,9 @@ def getMovie(message):
   
 @bot.message_handler(func=lambda message: botRunning, commands=['export'])
 def getList(message):
-    bot.reply_to(message, 'Generating file...')
+    bot.reply_to(message, 'Generating file...Please wait')
     with open("movies.csv", 'r') as csvfile: 
-        print('red the document')
+        # print('document')
 
     
    
