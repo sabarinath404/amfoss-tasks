@@ -1,3 +1,3 @@
 # bug fix
 
-
+Debugging was an interesting task for me, and it is also an easy one I  started debugging from the server by adding imports first then added the missing variable declaration till here it was easy then I started debugging the server side I tried a lot to connect the client to the server but I did it work I added may function to the code then also it didn't work then I started fixing the code in the next day, but rather than trying may code lines I started to study what is the exact problem. Then I observed that to connect the socket the port number must be the same so I fixed it. From this task, I learned that to solve a problem you must first understand what exactly is the problem.
