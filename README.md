@@ -3,7 +3,7 @@
 
 | TASKS | DESCRIPTION | STATUS |
 | -------------| ------------- | ------------- |
-| [Task-00](https://github.com/sabarinath404/amfoss-tasks/task-00)| Install Ubuntu   | completed  |
+| [Task-00](https://github.com/sabarinath404/amfoss-tasks/tree/master/task-00)| Install Ubuntu   | completed  |
 | [Task-01](https://github.com/sabarinath404/amfoss-tasks/task-01)| star all amfoss  | completed |
 | [Task-02](https://github.com/sabarinath404/amfoss-tasks/task-02)| Terminal Hunt  | completed  |
 | Task-03|  Programming | Unattempted |
