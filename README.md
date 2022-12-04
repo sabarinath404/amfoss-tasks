@@ -1,5 +1,5 @@
 # amFoss tasks status - Sabarinath B
-### i am sabarinath B from palakkad ,kerala.S3-AIE student in Amrita School of Engineering, Amritapuri .
+### I am sabarinath B from palakkad ,kerala.S3-AIE student in Amrita School of Engineering, Amritapuri .
 
 | TASKS | DESCRIPTION | STATUS |
 | -------------| ------------- | ------------- |
