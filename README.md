@@ -3,21 +3,21 @@
 
 | TASKS | DESCRIPTION | STATUS |
 | -------------| ------------- | ------------- |
-| Task-01| Install Ubuntu   | completed  |
-| Task-02| star all amfoss  | completed |
-| Task-03| Terminal Hunt  | completed  |
-| Task-04|  Programming | Unattempted |
-| Task-05|  CineBot | completed  |
-| Task-06| Find The Bug | completed |
-| Task-06| Flame game | completed  |
-| Task-07| Go WASM  | completed  |
-| Task-08| Internet Explorer| completed  |
-| Task-09| Krypto Scrapper | completed |
+| [Task-00](https://github.com/sabarinath404/amfoss-tasks/task-00)| Install Ubuntu   | completed  |
+| [Task-01](https://github.com/sabarinath404/amfoss-tasks/task-01)| star all amfoss  | completed |
+| [Task-02](https://github.com/sabarinath404/amfoss-tasks/task-02)| Terminal Hunt  | completed  |
+| Task-03|  Programming | Unattempted |
+| [Task-04](https://github.com/sabarinath404/amfoss-tasks/task-04)|  CineBot | completed  |
+| [Task-05](https://github.com/sabarinath404/amfoss-tasks/task-05)| Find The Bug | completed |
+| [Task-06](https://github.com/sabarinath404/amfoss-tasks/task-06)| Flame game | completed  |
+| [Task-07](https://github.com/sabarinath404/amfoss-tasks/task-07)| Go WASM  | completed  |
+| [Task-08](https://github.com/sabarinath404/amfoss-tasks/task-08)| Internet Explorer| completed  |
+| [Task-09](https://github.com/sabarinath404/amfoss-tasks/task-09)| Krypto Scrapper | completed |
 | Task-10| CS50| Unattempted   |
 | Task-11| Figma Ninja| Unattempted  |
 | Task-12| Bunny Heist | Unattempted  |
 | Task-13| Footfall Counter | Unattempted   |
-| Task-14| Bandit| completed  |
+| [Task-14](https://github.com/sabarinath404/amfoss-tasks/task-14)| Bandit| completed  |
 | Task-15| Project Euler | Unattempted  |
 
 
