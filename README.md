@@ -1,5 +1,5 @@
 # amFoss tasks status - Sabarinath B
-### i am sabarinath B from palakkad ,kerala.Iam S3-AIE student in Amrita School of Engineering, Amritapuri .
+### i am sabarinath B from palakkad ,kerala.S3-AIE student in Amrita School of Engineering, Amritapuri .
 
 | TASKS | DESCRIPTION | STATUS |
 | -------------| ------------- | ------------- |
@@ -19,3 +19,6 @@
 | Task-13| Footfall Counter | Unattempted   |
 | Task-14| Bandit| completed  |
 | Task-15| Project Euler | Unattempted  |
+
+
+Completed 9 out of 11 main tasks and one extra task.Total completed 10 task.
