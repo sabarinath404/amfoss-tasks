@@ -5,4 +5,4 @@ Building a game in flutter is cool but installing flutter and android studio and
 ref:
 https://blog.codemagic.io/flutter-flame-game-development/
 
-https://user-images.githubusercontent.com/108610114/205458648-6ce9d3fc-d4f7-4448-9bb1-7761f617c415.mp4
+https://user-images.githubusercontent.com/108610114/227761668-30d12cff-2ba6-4fd1-9ada-194c2fc92f0c.mov
