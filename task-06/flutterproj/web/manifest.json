@@ -1,6 +1,6 @@
 {
-    "name": "flutterproj",
-    "short_name": "flutterproj",
+    "name": "flame_game",
+    "short_name": "flame_game",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

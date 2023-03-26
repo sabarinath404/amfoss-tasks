@@ -128,7 +128,7 @@ class ArrowKey extends StatelessWidget {
         ),
         child: Icon(
           icons,
-          size: 45,
+          size: 40,
         ),
       ),
     );

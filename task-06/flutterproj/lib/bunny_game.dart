@@ -1,8 +1,9 @@
 import 'dart:ui';
 
 import 'package:flame/game.dart';
+import 'package:flame_game/Bunny_player.dart';
 import 'directions.dart';
-import 'Bunny_player.dart';
+
 import 'Bunny_world.dart';
 
 class BunnyGame extends FlameGame {

@@ -1,11 +1,31 @@
 import csv
 
 import telebot
+import os
+import telebot
+import random
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram.ext import Updater
+
+import ast
+import time
+from telebot import types
+
+
 
 from OMDB import get_movie_info
 
-bot = telebot.TeleBot("5681244979:AAHZ2DpRbCED8YGYDzY-uuxbvtnWSwsD-t8") # You can set parse_mode by default. HTML or MARKDOWN
+# bot = telebot.TeleBot("5681244979:AAHZ2DpRbCED8YGYDzY-uuxbvtnWSwsD-t8") # You can set parse_mode by default. HTML or MARKDOWN
 
+
+
+
+
+
+
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
+
+bot = telebot.TeleBot(BOT_TOKEN)
 # @bot.message_handler(commands=['start', 'help'])
 
 # def send_welcome(message):
@@ -76,6 +96,8 @@ import requests
 
 # bot = telebot.TeleBot()
 
+
+
 @bot.message_handler(commands=['start', 'hello'])
 def greet(message):
     global botRunning
@@ -84,10 +106,15 @@ def greet(message):
         message, 'Hello there! I am a bot that will show movie information for you and export it in a CSV file.\n\n')
     
 @bot.message_handler(commands=['stop', 'bye'])
+
 def goodbye(message):
     global botRunning
     botRunning = False
     bot.reply_to(message, 'Bye!\nHave a good time')
+    with open('movies.csv', 'w', newline='') as file:
+            file.write('')
+
+
     
 
 
@@ -107,7 +134,7 @@ def getMovie(message):
     # TODO: 1.2 Get movie information from the API
 
     movie_name = message.text
-    print('-0-0-')
+    
     print(movie_name)
     # movie_name=movie_name.lstrip[6: ]
     # print(movie_name)
@@ -199,14 +226,14 @@ def getMovie(message):
 def getList(message):
     bot.reply_to(message, 'Generating file...Please wait')
     with open("movies.csv", 'r') as csvfile: 
-        # print('document')
-
+       
     
    
         
 
 
         bot.send_document(message.chat.id,csvfile)
+       
         csvfile.close()
 
 @bot.message_handler(func=lambda message: botRunning)
